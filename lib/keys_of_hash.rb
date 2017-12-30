@@ -3,11 +3,10 @@ class Hash
     # code goes here
     array = []
     arguments.each do |argument|
-      if hash.keys.include?(argument)
+      if keys.include?(argument)
         array.push(argument)
       end
     end
     array
   end
-  array
 end
