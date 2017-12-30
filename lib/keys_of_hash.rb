@@ -1,9 +1,9 @@
 class Hash
-  def keys_of(*arguments)
+  def keys_of(instance,*arguments)
     # code goes here
     array = []
-    self.each do |argument|
-      if Hash.keys.include?(argument)
+    argumets.each do |argument|
+      if instance.keys.include?(argument)
         array.push(argument)
       end
     end
