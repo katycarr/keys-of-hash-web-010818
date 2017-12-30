@@ -1,5 +1,6 @@
 class Hash
   def keys_of(instance,*arguments)
+    binding.pry
     # code goes here
     array = []
     argumets.each do |argument|
